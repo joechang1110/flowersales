@@ -1,0 +1,26 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="tuLogin.aspx.cs" Inherits="SCard.tuLogin" %>
+
+<%@ Register Src="pageHeader.ascx" TagName="pageHeader" TagPrefix="uc1" %>
+<%@ Register Src="pageFooter.ascx" TagName="pageFooter" TagPrefix="uc2" %>
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+  
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    <div>
+        <uc1:pageHeader ID="PageHeader1" runat="server" />
+    
+    </div>
+        <uc2:pageFooter ID="PageFooter1" runat="server" />
+    </form>
+</body>
+</html>

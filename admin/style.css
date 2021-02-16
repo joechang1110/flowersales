@@ -1,0 +1,65 @@
+/*	全局定义　*/
+body, td, div, input
+/*,  p,textarea, select*/	{
+	color:			#111111;
+	font-family:	Tahoma;
+	font-size:		12px;
+	line-height:	13pt;
+}
+/*设置方框,border属性有三个子属性：线宽 线型 颜色。中间用空格分隔*/
+input
+/* hr*/	{
+	border:			1px #DDE3EC solid;
+}
+
+/*点击过的位置不变色*/
+a	{
+	color:			#266DBD;
+	text-decoration:none;
+}
+/*当鼠标放在连接字符上时，会变成设置的颜色*/
+a:hover	{
+	color:			#ff6600;
+	text-decoration:underline;
+}
+/*td	{
+	border-color:	#DDE3EC;}	/* 该项对firefox之类无效，对ie有效 */
+
+form {
+	margin:			0;
+}
+/*例如登陆框，设置边框的线条样式*/
+.grid	{
+	border:			1px #DDE3EC solid;
+	border-collapse:collapse;/*让边框线不突出，倒踏*/
+}
+
+/*将鼠标设置为小手型*/
+.cursor	{
+	cursor:			hand;
+}
+
+/*	标题行	*/
+.category	
+{
+	color:			#0F83EC;
+	background:		#f3f3f3;
+	padding:		2px;
+}
+/*	提示文本颜色  */
+.t1	{
+	color:			#f96600;
+}
+/*	醒目文本颜色  */
+.t2	{
+	color:			red;
+}
+/*	灰调文本颜色  */
+.t3	{
+	color:			#555555;
+}
+/*	高亮行	*/
+.highlight	{
+	background:		#fafafa;
+}
+

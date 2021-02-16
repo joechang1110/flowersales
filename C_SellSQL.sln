@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Flowersales", ".", "{AF53A240-6D69-4B40-9CCE-3AF7F229FCBD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/C_SellSQL"
+		Debug.AspNetCompiler.PhysicalPath = "E:\0814系统备份\桌面\C#商城\C_SellSQL\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\C_SellSQL\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/C_SellSQL"
+		Release.AspNetCompiler.PhysicalPath = "E:\0814系统备份\桌面\C#商城\C_SellSQL\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\C_SellSQL\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1690"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF53A240-6D69-4B40-9CCE-3AF7F229FCBD}.Debug|.NET.ActiveCfg = Debug|.NET
+		{AF53A240-6D69-4B40-9CCE-3AF7F229FCBD}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CDBC506-2588-4439-B0C8-66AE42011927}
+	EndGlobalSection
+EndGlobal
